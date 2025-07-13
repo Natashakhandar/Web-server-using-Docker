@@ -61,7 +61,7 @@ docker rm my-nginx
 
 **Health Monitoring:**
 
-
+```
 docker inspect my-nginx | grep Status
 docker stats
 ```
