@@ -10,7 +10,7 @@ docker-devops-task/
 └── Dockerfile                       # (optional, if custom image is created)
 ```
 
- 🐳 Docker DevOps Task – Web Server Deployment
+ # Docker DevOps Task – Web Server Deployment
 
  🔍 Objectives
 - Learn Docker containerization basics
