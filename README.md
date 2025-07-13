@@ -8,9 +8,8 @@ docker-devops-task/
 │   └── index.html
 ├── docker-compose.yml              # (optional advanced part)
 └── Dockerfile                       # (optional, if custom image is created)
-```
 
- # Docker DevOps Task – Web Server Deployment
+ ## Docker DevOps Task – Web Server
 
  🔍 Objectives
 - Learn Docker containerization basics
@@ -24,14 +23,13 @@ docker-devops-task/
 ## 📁 1. Learn Docker Containerization Basics
 
 **Installed Docker on Ubuntu EC2:**
-```bash
+
 sudo apt update
 sudo apt install docker.io -y
-````
+
 
 **Verified Installation:**
 
-```bash
 docker --version
 
 
@@ -39,7 +37,7 @@ docker --version
 
 **Run NGINX container:**
 
-```bash
+
 docker run -d -p 80:80 --name my-nginx nginx
 
 
@@ -47,14 +45,14 @@ docker run -d -p 80:80 --name my-nginx nginx
 
 Basic Docker commands used:
 
-```bash
+
 docker ps
 docker stop my-nginx
 docker start my-nginx
 docker restart my-nginx
 docker logs my-nginx
 docker rm my-nginx
-```
+
 
 
 
